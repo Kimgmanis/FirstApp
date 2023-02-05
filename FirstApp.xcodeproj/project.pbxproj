@@ -11,6 +11,7 @@
 		DB1DFC622989058100D9F1B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DFC612989058100D9F1B0 /* ContentView.swift */; };
 		DB1DFC642989058300D9F1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1DFC632989058300D9F1B0 /* Assets.xcassets */; };
 		DB1DFC672989058300D9F1B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1DFC662989058300D9F1B0 /* Preview Assets.xcassets */; };
+		DB8B812C298FA1A70005C587 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8B812B298FA1A70005C587 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DB1DFC612989058100D9F1B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB1DFC632989058300D9F1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1DFC662989058300D9F1B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB8B812B298FA1A70005C587 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				DB1DFC5F2989058100D9F1B0 /* FirstAppApp.swift */,
-				DB1DFC612989058100D9F1B0 /* ContentView.swift */,
+				DB8B8126298F92290005C587 /* Views */,
 				DB1DFC632989058300D9F1B0 /* Assets.xcassets */,
 				DB1DFC652989058300D9F1B0 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				DB1DFC662989058300D9F1B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB8B8126298F92290005C587 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB1DFC612989058100D9F1B0 /* ContentView.swift */,
+				DB8B812B298FA1A70005C587 /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1DFC622989058100D9F1B0 /* ContentView.swift in Sources */,
+				DB8B812C298FA1A70005C587 /* MapView.swift in Sources */,
 				DB1DFC602989058100D9F1B0 /* FirstAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
